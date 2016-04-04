@@ -31,6 +31,6 @@ public class HitController : MonoBehaviour {
 
     void SetCounterText()
     {
-        hitCounterText.text = "Counter: " + hitCounter.ToString();
+        hitCounterText.text = "Points: " + hitCounter.ToString();
     }
 }

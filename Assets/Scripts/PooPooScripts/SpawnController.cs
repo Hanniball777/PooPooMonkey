@@ -1,24 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class SpawnController : MonoBehaviour {
     public Transform spawnLocation;
     public GameObject pooPoo;
     public GameObject pooPooClone;
     public Transform character;
-    public float maxThrowPower;
+    public float maxChargePower;
     public float chargeRate;
-
-
-    private float throwPower;
+    public Text chargePowerText; 
 
     private float triggerDownTime;
+    private float chargePower;
     private float chargeTime;
+    private float tempChargePower;
+    private float tempChargeTime;
 
     private new Rigidbody rigidbody;
     private Vector3 throwDirection;
     
-    
+    void Start()
+    {
+        ResetValues();
+    }
 
     void Update()
     {
@@ -29,24 +34,51 @@ public class SpawnController : MonoBehaviour {
         else if (Input.GetMouseButtonUp(0))
         {
             chargeTime = Time.time - triggerDownTime;
-            throwPower = (chargeRate * chargeTime);
-            if (throwPower >= maxThrowPower)
+            chargePower = (chargeRate * chargeTime);
+            if (chargePower >= maxChargePower)
             {
-                throwPower = maxThrowPower;
+                chargePower = maxChargePower;
             }
             throwDirection = character.GetComponent<Camera>().transform.forward;
-            spawnPooPoo(throwPower);
-            triggerDownTime = 0f;
-            chargeTime = 0f;
+            spawnPooPoo(chargePower);
+
+            ResetValues();
+            SetChargePowerText();
+        }
+
+        if (triggerDownTime != 0f)
+        {
+            tempChargeTime = Time.time - triggerDownTime;
+            tempChargePower = (chargeRate * tempChargeTime);
+            if (tempChargePower >= maxChargePower)
+            {
+                tempChargePower = maxChargePower;
+            }
+            SetChargePowerText();
+            tempChargePower = 0f;
         }
     }
 
 
-    void spawnPooPoo(float throwPower)
+    void spawnPooPoo(float chargePower)
     {
         spawnLocation.transform.position.Set(character.position.x, character.position.y, character.position.z);
         pooPooClone = Instantiate(pooPoo, spawnLocation.transform.position, Quaternion.Euler(0,0,0)) as GameObject;
         rigidbody = pooPooClone.GetComponent<Rigidbody>();
-        rigidbody.AddForce(throwDirection * throwPower);
+        rigidbody.AddForce(throwDirection * chargePower);
+    }
+
+    void ResetValues()
+    {
+        triggerDownTime = 0f;
+        chargeTime = 0f;
+        tempChargeTime = 0f;
+        tempChargePower = 0f;
+    }
+
+    void SetChargePowerText()
+    {
+        tempChargePower = Mathf.Floor(tempChargePower);
+        chargePowerText.text = "Power: " + tempChargePower.ToString();
     }
 }
