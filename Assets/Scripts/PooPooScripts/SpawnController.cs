@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SpawnPooPooController : MonoBehaviour {
+public class SpawnController : MonoBehaviour {
     public Transform spawnLocation;
     public GameObject pooPoo;
     public GameObject pooPooClone;
