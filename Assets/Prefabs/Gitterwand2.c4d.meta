@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f8a7c31952432d94092e95a7a30ad4aa
-timeCreated: 1459979251
+timeCreated: 1459981844
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     100002: //RootNode
     100004: Klon
     100006: "W\xFCrfel"
-    100008: "W\xFCrfel_1"
+    100008: "W\xFCrfel_Instanz"
     100010: Zylinder_0
     100012: Zylinder_1
     100014: Zylinder_10
@@ -41,30 +41,29 @@ ModelImporter:
     100066: Zylinder_34
     100068: Zylinder_35
     100070: Zylinder_36
-    100072: Zylinder_4
-    100074: Zylinder_5
-    100076: Zylinder_6
-    100078: Zylinder_7
-    100080: Zylinder_8
-    100082: Zylinder_9
-    100084: "W\xFCrfel_Instanz"
-    100086: Zylinder_37
-    100088: Zylinder_38
-    100090: Zylinder_39
-    100092: Zylinder_40
-    100094: Zylinder_41
-    100096: Zylinder_42
-    100098: Zylinder_43
-    100100: Zylinder_44
-    100102: Zylinder_45
-    100104: Zylinder_46
-    100106: Zylinder_47
-    100108: Zylinder_48
+    100072: Zylinder_37
+    100074: Zylinder_38
+    100076: Zylinder_39
+    100078: Zylinder_4
+    100080: Zylinder_40
+    100082: Zylinder_41
+    100084: Zylinder_42
+    100086: Zylinder_43
+    100088: Zylinder_44
+    100090: Zylinder_45
+    100092: Zylinder_46
+    100094: Zylinder_47
+    100096: Zylinder_48
+    100098: Zylinder_5
+    100100: Zylinder_6
+    100102: Zylinder_7
+    100104: Zylinder_8
+    100106: Zylinder_9
     400000: CINEMA_4D_Editor
     400002: //RootNode
     400004: Klon
     400006: "W\xFCrfel"
-    400008: "W\xFCrfel_1"
+    400008: "W\xFCrfel_Instanz"
     400010: Zylinder_0
     400012: Zylinder_1
     400014: Zylinder_10
@@ -96,27 +95,26 @@ ModelImporter:
     400066: Zylinder_34
     400068: Zylinder_35
     400070: Zylinder_36
-    400072: Zylinder_4
-    400074: Zylinder_5
-    400076: Zylinder_6
-    400078: Zylinder_7
-    400080: Zylinder_8
-    400082: Zylinder_9
-    400084: "W\xFCrfel_Instanz"
-    400086: Zylinder_37
-    400088: Zylinder_38
-    400090: Zylinder_39
-    400092: Zylinder_40
-    400094: Zylinder_41
-    400096: Zylinder_42
-    400098: Zylinder_43
-    400100: Zylinder_44
-    400102: Zylinder_45
-    400104: Zylinder_46
-    400106: Zylinder_47
-    400108: Zylinder_48
+    400072: Zylinder_37
+    400074: Zylinder_38
+    400076: Zylinder_39
+    400078: Zylinder_4
+    400080: Zylinder_40
+    400082: Zylinder_41
+    400084: Zylinder_42
+    400086: Zylinder_43
+    400088: Zylinder_44
+    400090: Zylinder_45
+    400092: Zylinder_46
+    400094: Zylinder_47
+    400096: Zylinder_48
+    400098: Zylinder_5
+    400100: Zylinder_6
+    400102: Zylinder_7
+    400104: Zylinder_8
+    400106: Zylinder_9
     2300000: "W\xFCrfel"
-    2300002: "W\xFCrfel_1"
+    2300002: "W\xFCrfel_Instanz"
     2300004: Zylinder_0
     2300006: Zylinder_1
     2300008: Zylinder_10
@@ -148,27 +146,26 @@ ModelImporter:
     2300060: Zylinder_34
     2300062: Zylinder_35
     2300064: Zylinder_36
-    2300066: Zylinder_4
-    2300068: Zylinder_5
-    2300070: Zylinder_6
-    2300072: Zylinder_7
-    2300074: Zylinder_8
-    2300076: Zylinder_9
-    2300078: "W\xFCrfel_Instanz"
-    2300080: Zylinder_37
-    2300082: Zylinder_38
-    2300084: Zylinder_39
-    2300086: Zylinder_40
-    2300088: Zylinder_41
-    2300090: Zylinder_42
-    2300092: Zylinder_43
-    2300094: Zylinder_44
-    2300096: Zylinder_45
-    2300098: Zylinder_46
-    2300100: Zylinder_47
-    2300102: Zylinder_48
+    2300066: Zylinder_37
+    2300068: Zylinder_38
+    2300070: Zylinder_39
+    2300072: Zylinder_4
+    2300074: Zylinder_40
+    2300076: Zylinder_41
+    2300078: Zylinder_42
+    2300080: Zylinder_43
+    2300082: Zylinder_44
+    2300084: Zylinder_45
+    2300086: Zylinder_46
+    2300088: Zylinder_47
+    2300090: Zylinder_48
+    2300092: Zylinder_5
+    2300094: Zylinder_6
+    2300096: Zylinder_7
+    2300098: Zylinder_8
+    2300100: Zylinder_9
     3300000: "W\xFCrfel"
-    3300002: "W\xFCrfel_1"
+    3300002: "W\xFCrfel_Instanz"
     3300004: Zylinder_0
     3300006: Zylinder_1
     3300008: Zylinder_10
@@ -200,77 +197,75 @@ ModelImporter:
     3300060: Zylinder_34
     3300062: Zylinder_35
     3300064: Zylinder_36
-    3300066: Zylinder_4
-    3300068: Zylinder_5
-    3300070: Zylinder_6
-    3300072: Zylinder_7
-    3300074: Zylinder_8
-    3300076: Zylinder_9
-    3300078: "W\xFCrfel_Instanz"
-    3300080: Zylinder_37
-    3300082: Zylinder_38
-    3300084: Zylinder_39
-    3300086: Zylinder_40
-    3300088: Zylinder_41
-    3300090: Zylinder_42
-    3300092: Zylinder_43
-    3300094: Zylinder_44
-    3300096: Zylinder_45
-    3300098: Zylinder_46
-    3300100: Zylinder_47
-    3300102: Zylinder_48
-    4300000: Zylinder_0
-    4300002: Zylinder_1
-    4300004: Zylinder_2
-    4300006: Zylinder_3
-    4300008: Zylinder_4
-    4300010: Zylinder_5
-    4300012: Zylinder_6
-    4300014: Zylinder_7
-    4300016: Zylinder_8
-    4300018: Zylinder_9
-    4300020: Zylinder_10
-    4300022: Zylinder_11
-    4300024: Zylinder_12
-    4300026: Zylinder_13
-    4300028: Zylinder_14
-    4300030: Zylinder_15
-    4300032: Zylinder_16
-    4300034: Zylinder_17
-    4300036: Zylinder_18
-    4300038: Zylinder_19
-    4300040: Zylinder_20
-    4300042: Zylinder_21
-    4300044: Zylinder_22
-    4300046: Zylinder_23
-    4300048: Zylinder_24
-    4300050: Zylinder_25
-    4300052: Zylinder_26
-    4300054: Zylinder_27
-    4300056: Zylinder_28
-    4300058: Zylinder_29
-    4300060: Zylinder_30
-    4300062: Zylinder_31
-    4300064: Zylinder_32
-    4300066: Zylinder_33
-    4300068: Zylinder_34
-    4300070: Zylinder_35
-    4300072: Zylinder_36
-    4300074: "W\xFCrfel"
-    4300076: "W\xFCrfel_1"
-    4300078: "W\xFCrfel_Instanz"
-    4300080: Zylinder_37
-    4300082: Zylinder_38
-    4300084: Zylinder_39
-    4300086: Zylinder_40
-    4300088: Zylinder_41
-    4300090: Zylinder_42
-    4300092: Zylinder_43
-    4300094: Zylinder_44
-    4300096: Zylinder_45
-    4300098: Zylinder_46
-    4300100: Zylinder_47
-    4300102: Zylinder_48
+    3300066: Zylinder_37
+    3300068: Zylinder_38
+    3300070: Zylinder_39
+    3300072: Zylinder_4
+    3300074: Zylinder_40
+    3300076: Zylinder_41
+    3300078: Zylinder_42
+    3300080: Zylinder_43
+    3300082: Zylinder_44
+    3300084: Zylinder_45
+    3300086: Zylinder_46
+    3300088: Zylinder_47
+    3300090: Zylinder_48
+    3300092: Zylinder_5
+    3300094: Zylinder_6
+    3300096: Zylinder_7
+    3300098: Zylinder_8
+    3300100: Zylinder_9
+    4300000: "W\xFCrfel_Instanz"
+    4300002: Zylinder_0
+    4300004: Zylinder_1
+    4300006: Zylinder_2
+    4300008: Zylinder_3
+    4300010: Zylinder_4
+    4300012: Zylinder_5
+    4300014: Zylinder_6
+    4300016: Zylinder_7
+    4300018: Zylinder_8
+    4300020: Zylinder_9
+    4300022: Zylinder_10
+    4300024: Zylinder_11
+    4300026: Zylinder_12
+    4300028: Zylinder_13
+    4300030: Zylinder_14
+    4300032: Zylinder_15
+    4300034: Zylinder_16
+    4300036: Zylinder_17
+    4300038: Zylinder_18
+    4300040: Zylinder_19
+    4300042: Zylinder_20
+    4300044: Zylinder_21
+    4300046: Zylinder_22
+    4300048: Zylinder_23
+    4300050: Zylinder_24
+    4300052: Zylinder_25
+    4300054: Zylinder_26
+    4300056: Zylinder_27
+    4300058: Zylinder_28
+    4300060: Zylinder_29
+    4300062: Zylinder_30
+    4300064: Zylinder_31
+    4300066: Zylinder_32
+    4300068: Zylinder_33
+    4300070: Zylinder_34
+    4300072: Zylinder_35
+    4300074: Zylinder_36
+    4300076: Zylinder_37
+    4300078: Zylinder_38
+    4300080: Zylinder_39
+    4300082: Zylinder_40
+    4300084: Zylinder_41
+    4300086: Zylinder_42
+    4300088: Zylinder_43
+    4300090: Zylinder_44
+    4300092: Zylinder_45
+    4300094: Zylinder_46
+    4300096: Zylinder_47
+    4300098: Zylinder_48
+    4300100: "W\xFCrfel"
     9500000: //RootNode
   materials:
     importMaterials: 1
